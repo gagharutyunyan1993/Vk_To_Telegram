@@ -1,0 +1,7 @@
+*.db
+*.log
+logs/
+.idea/
+image.jpg
+img/
+.git/
