@@ -80,7 +80,7 @@ class VKparser
         $this->vk = new vk(VK_ACCESS_TOKEN, VK_API_VERSION);
         $this->owner = '-' . $groups[array_rand($groups)];
         $this->blacklist = $blacklist;
-        $this->Telegram = new Telegram('960765186:AAEvAmbUFoH7CQXFmHcs9reoLHUcYnyPfAo');
+        $this->Telegram = new Telegram(TELEGRAM_BOT_TOKEN);
         $this->log('Скрипт успешно запущен');
     }
 
